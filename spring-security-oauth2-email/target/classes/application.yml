@@ -1,0 +1,30 @@
+security:
+  oauth2:
+    client:
+      client-id: k
+      client-secret: parak
+      registered-redirect-uri: http://parak.top
+
+spring:
+  redis:
+    host: 127.0.0.1
+    password: KAG1823
+    database: 0
+  mail:
+    username: khighness@qq.com
+    password: yfnaxyszuaxgcice
+    host: smtp.qq.com
+    port: 465
+    properties:
+      mail:
+        ssl:
+          enable: true
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          socketFactory:
+            port: 465
+            class: javax.net.ssl.SSLSocketFactory
+            fallback: false

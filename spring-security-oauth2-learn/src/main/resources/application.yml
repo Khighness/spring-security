@@ -1,0 +1,6 @@
+security:
+  oauth2:
+    client:
+      client-id: k
+      client-secret: parak
+      registered-redirect-uri: http://parak.top

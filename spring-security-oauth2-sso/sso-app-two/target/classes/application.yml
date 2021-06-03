@@ -1,0 +1,15 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /app-two
+
+security:
+  oauth2:
+    client:
+      client-id: app-two
+      client-secret: app-two-parak
+      user-authorization-uri: http://127.0.0.1:8080/server/oauth/authorize
+      access-token-uri: http://127.0.0.1:8080/server/oauth/token
+    resource:
+      jwt:
+        key-uri: http://127.0.0.1:8080/server/oauth/token_key
