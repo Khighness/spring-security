@@ -35,4 +35,5 @@ public class RegisterController {
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         return userMapper.insert(user) == 1 ? "注册成功" : "注册失败";
     }
+
 }

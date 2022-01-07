@@ -22,4 +22,5 @@ public class AuthorizationController {
     public String normal() {
         return "您是普通角色，可以访问";
     }
+
 }

@@ -1,6 +1,6 @@
 ### Java
 
-/target/
+**/target/
 .class
 *.log
 

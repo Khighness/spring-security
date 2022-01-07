@@ -13,9 +13,7 @@ import java.io.IOException;
 public class AuthenticationController {
 
     /**
-     * <p>登录认证</p>
-     * @return
-     * @throws IOException
+     * 登录认证
      */
     @GetMapping("/authentication")
     public String authenticationLogin() {
@@ -23,8 +21,7 @@ public class AuthenticationController {
     }
 
     /**
-     * <p>打招呼接口</p>
-     * @return
+     * 打招呼接口
      */
     @ResponseBody
     @GetMapping("/hello")
@@ -33,9 +30,7 @@ public class AuthenticationController {
     }
 
     /**
-     * <p>登录成功返回认证信息</p>
-     * @param authentication
-     * @return
+     * 登录成功返回认证信息
      */
     @ResponseBody
     @GetMapping("/success")
